@@ -1,0 +1,21 @@
+{
+  "name": "wordpress-media-library-backup-js",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "description": "Backup tool to export media files from a site hosted on wordpress.com.",
+  "main": "backup.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaisersparpick/wordpress-media-library-backup-js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaiser Sparpick",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "4.0.2"
+  }
+}
