@@ -19,8 +19,8 @@ Here is a sample output
 ![Sample output](sample-output.png)
 
 # Installation
+To install, run
 ```javascript
-// To install, run
 npm install --save wordpress-media-library-backup-js
 ```
 
