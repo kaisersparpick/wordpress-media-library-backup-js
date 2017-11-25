@@ -19,11 +19,13 @@ Here is a sample output
 ![Sample output](sample-output.png)
 
 # Installation
-
 ```javascript
 // To install, run
 npm install --save wordpress-media-library-backup-js
+```
 
+# Usage
+```javascript
 // To run the console application, issue the command
 node backup.js <xml-file> <destination-directory>
 // examples
