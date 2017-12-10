@@ -5,6 +5,7 @@
     "node": ">=8.9.0"
   },
   "description": "Backup tool to export media files from a site hosted on wordpress.com.",
+  "homepage": "https://github.com/kaisersparpick/wordpress-media-library-backup-js#readme",
   "main": "backup.js",
   "repository": {
     "type": "git",
