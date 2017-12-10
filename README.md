@@ -16,7 +16,7 @@ The total download time is reported at the end of the backup process.
 
 Here is a sample output
 
-![Sample output](sample-output.png)
+![Sample output](https://github.com/kaisersparpick/wordpress-media-library-backup-js/raw/master/sample-output.png)
 
 # Installation
 To install, run
