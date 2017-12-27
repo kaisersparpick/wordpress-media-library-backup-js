@@ -1,8 +1,8 @@
 # Wordpress media library backup
 
-Backup tool to export media files from a site hosted on WordPress.com.
+Backup tool to download entire WordPress media library preserving directory structure.
 
-WordPress.com offers a free export tool that allows exporting of posts, pages, comments, categories, and (only) metadata of media files. 
+WordPress offers a free export tool that allows exporting of posts, pages, comments, categories, and (only) metadata of media files. 
 
 This backup tool then takes that XML file as input and downloads all media files referenced in it using the `<wp:attachment_url>` tag. 
 

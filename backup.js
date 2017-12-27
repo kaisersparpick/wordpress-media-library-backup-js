@@ -76,9 +76,9 @@ function backup() {
     
     const [xmlFile = 'export.xml', dirname = 'backup'] = process.argv.slice(2);
     const xml = fs.readFileSync(xmlFile).toString();
-    const re = /<wp:attachment_url>(.+)<\/wp:attachment_url>/g;
+    const re = /<wp:attachment_url>(<!\[CDATA\[)*(.*?)(\]\]>)*<\/wp:attachment_url>/g;
     let match, urls = [];
-    while (match = re.exec(xml)) urls.push(match[1]);
+    while (match = re.exec(xml)) urls.push(match[2]);
     if (!urls.length) return echo('No URLs found', 'red', true);
 
     const iterator = function*() { let idx = 0; while (idx < urls.length) yield urls[idx++]; }();

@@ -1,10 +1,10 @@
 {
   "name": "wordpress-media-library-backup-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "node": ">=8.9.0"
   },
-  "description": "Backup tool to export media files from a site hosted on wordpress.com.",
+  "description": "Backup tool to download entire WordPress media library preserving directory structure.",
   "homepage": "https://github.com/kaisersparpick/wordpress-media-library-backup-js#readme",
   "main": "backup.js",
   "repository": {
